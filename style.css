@@ -87,6 +87,10 @@ li a:hover {
     font-size: 30px;
     background-color: transparent;
 }
+.content {
+    text-align: center;
+    justify-content: center;
+}
 @media (max-width: 768px) {
     .icon {
         display:flex;
