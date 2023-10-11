@@ -1,4 +1,7 @@
+const header = document.querySelector('.header');
+console.log(header);
 const iconButton = document.querySelector('.icon_button');
+console.log(document);
 const menuUl = document.querySelector('.menu ul');
 
 iconButton.addEventListener('click', () => {
@@ -8,3 +11,4 @@ iconButton.addEventListener('click', () => {
         menuUl.style.display = 'block';
     }
 });
+
